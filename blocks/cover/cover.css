@@ -1,0 +1,45 @@
+.cover {
+    position: relative;
+    margin: 92px 48px 0px;
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: url(./../../image/__background.png);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 92px;
+    text-decoration: none;
+    background-size: cover;
+}
+
+.cover:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./../../image/__overlay.png);
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    transition: opacity 1s;
+}
+
+.cover:hover:before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        max-width: 1024px;
+        min-height: 640px;
+        margin: 92px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    {}
+}
+
+@media screen and (max-width: 767px) {
+    {}
+}

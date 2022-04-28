@@ -1,0 +1,10 @@
+.place__link {
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-items: flex-end;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}
