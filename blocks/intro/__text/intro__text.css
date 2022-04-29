@@ -6,4 +6,21 @@
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
+    max-width: 690px;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__image {
+        max-width: 690px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    {}
 }

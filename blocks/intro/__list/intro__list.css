@@ -8,4 +8,22 @@
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .intro__list {
+        max-width: 690px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__list {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    {}
 }

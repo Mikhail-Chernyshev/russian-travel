@@ -13,7 +13,11 @@
 }
 
 @media screen and (max-width: 1023px) {
-    {}
+    .photo-grid {
+        margin: 88px 24px;
+        gap: 16px;
+        grid-template-columns: 352px 352px;
+    }
 }
 
 @media screen and (max-width: 767px) {

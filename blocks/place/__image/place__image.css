@@ -5,3 +5,21 @@
     height: 460px;
     width: 460px;
 }
+
+@media screen and (max-width: 1279px) {
+    .place__image {
+        width: 440px;
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__image {
+        width: 340px;
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    {}
+}

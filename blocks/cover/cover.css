@@ -1,6 +1,6 @@
 .cover {
     position: relative;
-    margin: 92px 48px 0px;
+    margin: 92px 48px 92px;
     max-width: 1184px;
     min-height: 740px;
     background-image: url(./../../image/__background.png);
@@ -32,12 +32,16 @@
     .cover {
         max-width: 1024px;
         min-height: 640px;
-        margin: 92px 0px 0px 0px;
+        margin: 92px 0px 88px 0px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    {}
+    .cover {
+        margin-top: 90px;
+        max-width: 768px;
+        min-height: 480px;
+    }
 }
 
 @media screen and (max-width: 767px) {
