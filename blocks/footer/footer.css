@@ -1,7 +1,18 @@
 .footer {
     display: flex;
     flex-direction: row;
-    margin: 0 48px;
+    margin: 0 48px 0px;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 24px 32px 24px 32px 24px 32px 24px 32px 24px 48px 14px;
+        margin-left: 16px;
+        padding-bottom: 24px;
+    }
 }

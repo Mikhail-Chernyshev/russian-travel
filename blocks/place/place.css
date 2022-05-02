@@ -17,12 +17,16 @@
 
 @media screen and (max-width: 1023px) {
     .place {
-        margin: 0px 24px 73px;
+        margin: 0px 24px 72px;
         grid-template-columns: 340px 352px;
         grid-column-gap: 24px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    {}
+    .place {
+        margin: 0px 0px 50px 0px;
+        grid-template-columns: 320px;
+        grid-template-rows: 35px 32px 12px 12px 22px 32px 320px 32px auto;
+    }
 }

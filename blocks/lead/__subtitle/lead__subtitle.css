@@ -7,6 +7,7 @@
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
+    text-align: center;
 }
 
 @media screen and (max-width: 1279px) {
@@ -16,9 +17,17 @@
 }
 
 @media screen and (max-width: 1023px) {
-    {}
+    .lead__subtitle {
+        margin: 32px 64px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-    {}
+    .lead__subtitle {
+        margin: 16px 0px;
+        max-width: 288px;
+        min-height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+    }
 }

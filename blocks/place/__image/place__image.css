@@ -21,5 +21,9 @@
 }
 
 @media screen and (max-width: 767px) {
-    {}
+    .place__image {
+        width: 320px;
+        height: 320px;
+        grid-row: 7/8;
+    }
 }

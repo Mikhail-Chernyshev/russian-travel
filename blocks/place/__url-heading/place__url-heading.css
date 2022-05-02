@@ -21,5 +21,8 @@
 }
 
 @media screen and (max-width: 767px) {
-    {}
+    .place__url-heading {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
 }

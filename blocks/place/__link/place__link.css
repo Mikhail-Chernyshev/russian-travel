@@ -8,3 +8,10 @@
 .place__link:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 767px) {
+    .place__link {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+}

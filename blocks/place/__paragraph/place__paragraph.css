@@ -24,8 +24,16 @@
         font-size: 18px;
         line-height: 26.08px;
     }
+    .place__paragraph:first-child {
+        margin-bottom: 25px;
+    }
 }
 
 @media screen and (max-width: 767px) {
-    {}
+    .place__paragraph {
+        max-width: 288px;
+    }
+    .place__paragraph:first-child {
+        margin-bottom: 25px;
+    }
 }
