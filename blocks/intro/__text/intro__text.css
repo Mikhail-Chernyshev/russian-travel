@@ -5,9 +5,9 @@
     line-height: 26px;
     text-align: left;
     max-width: 690px;
-    font-family: ''Inter'';
-    font-style: normal;
+    font-family: 'Inter';
     font-weight: 400;
+    font-style: black;
 }
 
 @media screen and (max-width: 1279px) {
