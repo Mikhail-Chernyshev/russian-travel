@@ -1,8 +1,11 @@
 .place__link {
     display: flex;
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 3/4;
     align-items: flex-end;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
 }
 
 .place__link:hover {
@@ -13,5 +16,7 @@
     .place__link {
         grid-column: 1/2;
         grid-row: 5/6;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }

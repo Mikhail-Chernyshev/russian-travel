@@ -1,6 +1,6 @@
 .place__paragraphs {
     margin: 0;
-    grid-column: 2/3;
+    grid-column: 3/4;
     grid-row: 5/6;
 }
 
@@ -8,5 +8,7 @@
     .place__paragraphs {
         grid-row: 9/10;
         grid-column: 1/2;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }

@@ -1,5 +1,7 @@
 @import url('../styles/normalize.css');
 @import url('../fonts/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/body/body.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__nav/header__nav.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
@@ -29,34 +31,4 @@
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/lead/__subtitle/lead__subtitle.css');
 @import url('../blocks/intro/__bold/intro__bold.css');
-body {
-    margin: 0 auto;
-    max-width: 1280px;
-    background-color: #E5E5E5;
-}
-
-.page {
-    max-width: 1280px;
-    background-color: #2A2C2F;
-    font-family: 'Inter', Arial, sans-serif;
-    color: white;
-}
-
-@media screen and (max-width: 1279px) {
-    .page {
-        max-width: 1024px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .page {
-        max-width: 768px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .page {
-        max-width: 320px;
-    }
-}
+@import url('../blocks/header/__lang-link/_underline/header__lang-link_underline.css');

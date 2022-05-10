@@ -26,11 +26,13 @@
     }
     .place__paragraph:first-child {
         margin-bottom: 25px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place__paragraph {
+        font-size: 16px;
         max-width: 288px;
     }
     .place__paragraph:first-child {

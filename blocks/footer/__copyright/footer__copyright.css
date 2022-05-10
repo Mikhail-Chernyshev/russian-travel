@@ -8,6 +8,6 @@
 
 @media screen and (max-width: 767px) {
     .footer__copyright {
-        grid-row: 11/12;
+        grid-row: 10/11;
     }
 }
