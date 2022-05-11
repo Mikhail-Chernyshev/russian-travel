@@ -1,9 +1,9 @@
-.cover {
+.cover__link {
     position: relative;
-    margin: 92px 48px 92px;
+    margin: 0px 48px 92px;
     max-width: 1184px;
     min-height: 740px;
-    background-image: url(./../../image/__background.png);
+    background-image: url(./../../../image/__background.png);
     display: flex;
     flex-direction: column;
     margin-bottom: 92px;
@@ -11,41 +11,41 @@
     background-size: cover;
 }
 
-.cover:before {
+.cover__link:before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(./../../image/__overlay.png);
+    background-image: url(./../../../image/__overlay.png);
     background-color: #2A2C2F;
     opacity: 0.3;
     transition: opacity 1s;
 }
 
-.cover:hover:before {
+.cover__link:hover:before {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {
-    .cover {
+    .cover__link {
         max-width: 1024px;
         min-height: 640px;
-        margin: 92px 0px 88px 0px;
+        margin: 0px 0px 92px 0px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .cover {
-        margin-top: 90px;
+    .cover__link {
+        margin-bottom: 88px;
         max-width: 768px;
         min-height: 480px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .cover {
+    .cover__link {
         margin: 16px 0px 64px 0px;
         background-size: cover;
         max-width: 320px;

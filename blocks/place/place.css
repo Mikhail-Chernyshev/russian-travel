@@ -11,6 +11,7 @@
     .place {
         margin: 0px 48px 80px;
         grid-template-columns: 440px 32px 456px;
+        grid-template-rows: auto 12px 34px 48px 440px;
     }
 }
 
