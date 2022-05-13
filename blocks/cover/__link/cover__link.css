@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 767px) {
     .cover__link {
-        margin: 16px 0px 64px 0px;
+        margin: 0 0px 64px 0px;
         background-size: cover;
         max-width: 320px;
         min-height: 200px;

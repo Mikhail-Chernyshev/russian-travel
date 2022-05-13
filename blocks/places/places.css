@@ -4,12 +4,12 @@
 
 @media screen and (max-width: 1023px) {
     .places {
-        padding-bottom: 18px;
+        padding-bottom: 90px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .places {
-        padding-bottom: 16px;
+        padding-bottom: 66px;
     }
 }
